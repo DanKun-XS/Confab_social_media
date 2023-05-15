@@ -39,11 +39,17 @@ if (isset($_SESSION['userID'])) {
                             <h4>Firstname: <?php echo $_SESSION['firstname']; ?></h4>
                             <h4>Lastname: <?php echo $_SESSION['lastname']; ?></h4>
                             <h4>Age: <?php echo $_SESSION['age']; ?></h4>
+                            <h4>Hobby: <?php echo $_SESSION['hobby']; ?></h4>
+                            <h4>Gender: <?php echo $_SESSION['gender']; ?></h4>
+                            <h4>Birthdate: <?php echo $_SESSION['birthdate']; ?></h4>
+                            <h4>Description: <?php echo $_SESSION['description']; ?></h4>
+                            
                         </div>
                         
                         <div id="profile_boxes" class="flex-fill">
                             <?php echo $_SESSION['image']; ?>
                         </div>
+                        
                     </form>
 
                 </div>
